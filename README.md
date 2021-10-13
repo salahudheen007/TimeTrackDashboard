@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [gitHub](https://github.com/salahudheen007/time-tracking)
-- Live Site URL: [time-tracking]( https://salahudheen007.github.io/time-tracking/)
+- Solution URL: [gitHub](https://github.com/salahudheen007/TimeTrackDashboard)
+- Live Site URL: [time-tracking]( https://salahudheen007.github.io/TimeTrackDashboard/)
 
 ## My process
 
