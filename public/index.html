@@ -4,14 +4,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" href="<%= BASE_URL %>favicon-32x32.png">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+      h1,h2,h3,h4,h5,h6,p{
+        font-family: 'Rubik', sans-serif;
+      }
+      @media(min-width:601px){
+        body{
+          padding: 5em;
+
+        }
+      }@media(max-width:600px){
+       body{ padding: 0em;}
+      }.some{
+          margin-top: 2em;
+          width: fit-content;
+          margin: auto;
+        }
+
+    </style>
   </head>
-  <body>
+  <body style="background-color: hsl(226, 43%, 10%);">
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <div class="attribution" style="margin: auto;color: aliceblue;width: fit-content;margin-top: 7em;">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/salahudheen-k-7574ba1a6/">Salahudheen</a>.
+    </div>
   </body>
 </html>
